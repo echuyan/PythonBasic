@@ -1,8 +1,15 @@
-def calculate_average(nums):
-    total = sum(nums)
-    count = len(numbers)
-    average = total / count
+"""Module performing basic calculations"""
 
-nums = [10, 15, 20]
-result = calculat_average(nums)
-Print("The average is:", result)
+
+def calculate_average(nums):
+    """Function performing basic calculations"""
+    total = sum(nums)
+    count = len(nums)
+    print(total)
+    print(count+total)
+    return total
+
+
+nums1 = [10, 15, 20]
+result = calculate_average(nums1)
+print("The average is:", result)

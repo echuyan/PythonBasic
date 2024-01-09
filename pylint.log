@@ -1,0 +1,33 @@
+(venv) c:\otusPython>pylint fix_me.py
+************* Module fix_me
+fix_me.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+fix_me.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+fix_me.py:1:22: W0621: Redefining name 'nums' from outer scope (line 8) (redefined-outer-name)
+fix_me.py:9:0: E1111: Assigning result of a function call, where the function has no return (assignment-from-no-return)
+fix_me.py:9:0: C0103: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
+
+(venv) c:\otusPython>pylint fix_me.py
+************* Module fix_me
+fix_me.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+fix_me.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.78/10 (previous run: 0.00/10, +7.78)
+
+
+(venv) c:\otusPython>pylint fix_me.py
+************* Module fix_me
+fix_me.py:2:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.89/10 (previous run: 7.78/10, +1.11)
+
+
+(venv) c:\otusPython>pylint fix_me.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.89/10, +1.11)
